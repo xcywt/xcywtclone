@@ -8,8 +8,8 @@ EXISTS	|EXISTS 运算符用于在满足一定条件的指定表中搜索行的�
 IN	|IN 运算符用于把某个值与一系列指定列表的值进行比较。
 NOT IN	|IN 运算符的对立面，用于把某个值与不在一系列指定列表的值进行比较。
 LIKE	|LIKE 运算符用于把某个值与使用通配符运算符的相似值进行比较。
-GLOB	|GLOB 运算符用于把某个值与使用通配符运算符的相似值进行比较。GLOB 与 LIKE 不同之处在于，它是大小写敏感的。
-NOT	|NOT 运算符是所用的逻辑运算符的对立面。比如 NOT EXISTS、NOT BETWEEN、NOT IN，等等。它是否定运算符。
+GLOB	|GLOB 用于把某个值与使用通配符运算符的相似值进行比较。GLOB是大小写敏感的。
+NOT	|NOT 是所用的逻辑运算符的对立面。比如NOT IN，等等。它是否定运算符。
 OR	|OR 运算符用于结合一个 SQL 语句的 WHERE 子句中的多个条件。
 IS NULL	|NULL 运算符用于把某个值与 NULL 值进行比较。
 IS	|IS 运算符与 = 相似。
@@ -33,8 +33,8 @@ I（或）	|如果存在于任一操作数中，二进制 OR 运算符复制一�
 1	|date(timestring, modifier, modifier, ...)	|以 YYYY-MM-DD 格式返回日期。
 2	|time(timestring, modifier, modifier, ...)	|以 HH:MM:SS 格式返回时间。
 3	|datetime(timestring, modifier, modifier, ...)	|以 YYYY-MM-DD HH:MM:SS 格式返回。
-4	|julianday(timestring, modifier, modifier, ...)	|这将返回从格林尼治时间的公元前 4714 年 11 月 24 日正午算起的天数。
-5	|strftime(format, timestring, modifier, modifier, ...)	|这将根据第一个参数指定的格式字符串返回格式化的日期。具体格式见下边讲解。
+4	|julianday(timestring, modifier, modifier, ...)	|返回从格林尼治时间的公元前 4714 年 11 月 24 日正午算起的天数。
+5	|strftime(format, timestring, modifier, modifier, ...)	|根据第一个参数指定的格式字符串返回格式化的日期
 
 # 666
 
